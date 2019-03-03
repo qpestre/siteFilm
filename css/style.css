@@ -1,0 +1,28 @@
+.centered
+{
+	text-align:center;
+}
+
+.ajoutFilm
+{
+	border : 2px black solid;
+	border-radius : 4px;
+	background : rgba(240,240,245,0.9);
+}
+
+.carte 
+{
+	background:rgba(245,245,245,0.8);
+	border-radius:6px;
+	display :flex;
+	flex-direction : row;
+	justify-content: space-around;
+}
+article,aside
+{
+	flex:1;
+}
+img
+{
+	max-width:50%;
+}
